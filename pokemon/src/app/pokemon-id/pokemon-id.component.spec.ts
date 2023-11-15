@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListatypeComponent } from './listatype.component';
+import { PokemonIdComponent } from './pokemon-id.component';
 
-describe('ListatypeComponent', () => {
-  let component: ListatypeComponent;
-  let fixture: ComponentFixture<ListatypeComponent>;
+describe('PokemonIdComponent', () => {
+  let component: PokemonIdComponent;
+  let fixture: ComponentFixture<PokemonIdComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ListatypeComponent]
+      declarations: [PokemonIdComponent]
     });
-    fixture = TestBed.createComponent(ListatypeComponent);
+    fixture = TestBed.createComponent(PokemonIdComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
